@@ -1,0 +1,36 @@
+.dayWeather{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+    height: 150px;
+}
+
+.dayWeather:hover{
+    background-color: lightgray;
+}
+
+.day{
+    padding: 10px;
+    color: gray;
+}
+
+.temp{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.temp span {
+    padding: 10px;
+}
+
+.temp span:first-child{
+    font-weight: bold;
+}
+
+.temp span:last-child{
+    color: gray;
+}

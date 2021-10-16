@@ -1,0 +1,12 @@
+tr {
+
+}
+
+table {
+    margin: auto;
+    height: 100%;
+}
+
+tbody{
+    display: flex;
+}
