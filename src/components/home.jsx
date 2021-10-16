@@ -9,6 +9,7 @@ function Home(){
 
     React.useEffect(() => {
         fetchForecast("Stockton").then(res => {
+            console.log(res)
             let filtered = filterDays(res.list)
             filtered.pop()
             // console.log(filtered)

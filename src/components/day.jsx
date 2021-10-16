@@ -19,7 +19,7 @@ function Day(props){
     return(
         <tr className="dayWeather">
             <td className="day">{day}</td>
-            <img src={`http://openweathermap.org/img/wn/${icon}`}/>
+            <td><img src={`http://openweathermap.org/img/wn/${icon}`}/></td>
             <td className="temp">            
                 <span>{min}</span>
                 <span>{max}</span>
