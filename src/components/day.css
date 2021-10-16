@@ -5,6 +5,7 @@
     align-items: center;
     width: 100px;
     height: 150px;
+    font-weight: bold;
 }
 
 .dayWeather:hover{
@@ -25,10 +26,6 @@
 
 .temp span {
     padding: 10px;
-}
-
-.temp span:first-child{
-    font-weight: bold;
 }
 
 .temp span:last-child{

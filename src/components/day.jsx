@@ -1,5 +1,5 @@
 import React from 'react';
-import {removeDecimal} from '../util/utils'
+import {removeDecimal, shortenDay} from '../util/utils'
 import './day.css'
 
 function Day(props){
@@ -11,7 +11,7 @@ function Day(props){
         const {weather, main, dayOfTheWeek} = props.props
         // var date = new Date(dt * 1000)
         setIcon(weather[0].icon + ".png")
-        setDay(dayOfTheWeek)
+        setDay(shortenDay(dayOfTheWeek))
         setMin(removeDecimal(main.temp_min)+ "°")
         setMax(removeDecimal(main.temp_max)+ "°")
     }, [])

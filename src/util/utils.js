@@ -18,3 +18,7 @@ export const convertUnixToDate = (unix) => {
 export const removeDecimal = (float) => {
     return Math.trunc(float)
 }
+
+export const shortenDay = (string) => {
+    return string.split("").slice(0,3).join("")
+}

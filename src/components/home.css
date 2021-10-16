@@ -1,12 +1,10 @@
-tr {
-
-}
-
 table {
     margin: auto;
     height: 100%;
+    font-family: sans-serif;
 }
 
 tbody{
     display: flex;
+    border: solid 1px lightgray;
 }
